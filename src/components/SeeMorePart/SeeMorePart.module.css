@@ -1,0 +1,43 @@
+.SeeMorePartWrapper {
+    color: white;
+    font-size: 18px;
+}
+
+.SeeMoreText {
+    color: inherit;
+    text-transform: uppercase;
+}
+
+.doubleArrow {
+    border-color: white;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+.arrow1 {
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    transform: rotate(135deg);
+    width: 20px;
+    height: 20px;
+    border-top: 5px solid;
+    border-right: 5px solid;
+    border-color: inherit;
+    margin: 0 auto;
+}
+
+.arrow2 {
+    -webkit-transform: rotate(135deg);
+    -moz-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    transform: rotate(135deg);
+    width: 20px;
+    height: 20px;
+    border-top: 5px solid;
+    border-right: 5px solid;
+    border-color: inherit;
+    margin: 0 auto;
+    margin-top: -10px;
+}

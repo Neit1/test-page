@@ -1,0 +1,34 @@
+.PageTopWrapper {
+    background-image: url("../../assets/images/PageTopBackground.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    padding-bottom: 55px;
+    height: 1080px;
+}
+
+.SeeMorePartDiv {
+    margin-top: 855px;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .PageTopWrapper {
+        height: 910px;
+    }
+
+    .SeeMorePartDiv {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 730px) {
+
+    .PageTopWrapper {
+        height: 265px;
+        background-size: auto;
+    }
+}
